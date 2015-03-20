@@ -1,6 +1,9 @@
 #################
-## RStudio
+## R Studio
 #################
 
 ^.*\.Rproj$
 ^\.Rproj\.user$
+
+.Rproj.user/
+.Rbuildignore
