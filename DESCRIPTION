@@ -1,0 +1,9 @@
+Package: LH-Extensions
+Type: Package
+Title: What the package does (short line)
+Version: 1.0
+Date: 2015-03-20
+Author: Eric R Barb
+Maintainer: Eric Barb <eric.barb@somewhere.com>
+Description: Figure it out
+License: What license is it under?

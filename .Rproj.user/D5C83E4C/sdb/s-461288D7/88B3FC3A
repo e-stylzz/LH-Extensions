@@ -1,0 +1,16 @@
+{
+    "contents" : "#Author:  Eric Barb\n#Description:  Working with Extensions and their probability\n\n\n#Get basics in order\nsetwd(\"~/GitHub/LH-Extensions\")\nextensions <- read.csv(\"~/GitHub/Datasets/LH-Extensions/extmain.csv\")\n\n\n#Bring in Libraries\nlibrary(rpart)\nlibrary(rattle)\nlibrary(rpart.plot)\nlibrary(RColorBrewer)\nlibrary(randomForest)\nlibrary(party)\n\n#Create Train and Test Sets\nextensions$group <- runif(dim(extensions)[1])\ntest <- subset(extensions, extensions$group <= 0.1)\ntrain <- subset(extensions, extensions$group > 0.1)",
+    "created" : 1426861479451.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2084307352",
+    "id" : "88B3FC3A",
+    "lastKnownWriteTime" : 1426877550,
+    "path" : "~/GitHub/LH-Extensions/R/LH-Extensions.R",
+    "project_path" : "R/LH-Extensions.R",
+    "properties" : {
+    },
+    "source_on_save" : false,
+    "type" : "r_source"
+}

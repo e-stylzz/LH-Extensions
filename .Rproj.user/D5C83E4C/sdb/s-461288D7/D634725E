@@ -1,0 +1,16 @@
+{
+    "contents" : "# Auto detect text files and perform LF normalization\n* text=auto\n\n# Custom for Visual Studio\n*.cs     diff=csharp\n\n# Standard to msysgit\n*.doc\t diff=astextplain\n*.DOC\t diff=astextplain\n*.docx diff=astextplain\n*.DOCX diff=astextplain\n*.dot  diff=astextplain\n*.DOT  diff=astextplain\n*.pdf  diff=astextplain\n*.PDF\t diff=astextplain\n*.rtf\t diff=astextplain\n*.RTF\t diff=astextplain\n",
+    "created" : 1426877702904.000,
+    "dirty" : true,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "4109614838",
+    "id" : "D634725E",
+    "lastKnownWriteTime" : 1418965048,
+    "path" : "~/GitHub/LH-Extensions/.gitattributes",
+    "project_path" : ".gitattributes",
+    "properties" : {
+    },
+    "source_on_save" : false,
+    "type" : "text"
+}
