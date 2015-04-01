@@ -9,3 +9,4 @@
 .Rbuildignore
 
 src/
+.Rproj.user
